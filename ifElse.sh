@@ -7,7 +7,7 @@ randomCheck=$((RANDOM%3));
 
 if [ $isFullTime -eq $randomCheck ];
 then
-	empHrs=8
+	empHrs=8;
 elif [ $isPartTime -eq $randomCheck ];
 then
 	empHrs=4;

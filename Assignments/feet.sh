@@ -1,4 +1,4 @@
 #!/bin/bash -x
 
 read -p "Enter length in inches " x
-z=$((x/12));
+printf %.3f "$((10**3 * $x/12))e-3"
