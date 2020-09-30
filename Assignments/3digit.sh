@@ -42,5 +42,5 @@ then
 small=$digit5;
 fi
 
-echo $big"max"
-echo $small"min"
+echo $big" maximum value"
+echo $small" minimum value"
